@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Mono:wght@200&display=swap");
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.all {
+    box-sizing: border-box;
+    display: inline-block;
+    margin-top: 5px;
+    margin-left: 30px;
+    cursor: pointer;
+}
+
+
+
+
+.above {
+    z-index: 1;
+    background: linear-gradient(90deg, #ff85e4 0%, #229efd 179.25%);
+    height: 104;
+    padding: 0 136px;
+    padding-top: 16px;
+    padding-bottom: 73px;
+}
+.other:hover {
+    color: #e5eaf5;
+}
+.links:hover {
+    color: #e5eaf5;
+}
+
+.local {
+    font-size: 22px;
+    transform: translate(3px,3px)
+}
+.adress {
+    width: 50px;
+    margin-left: 50px;
+}
+.personal_account {
+    width: 43px;
+}
+.basket {
+    width: 57px;
+}
+.element {
+    text-align: center;
+}
+.element_1 {
+    transform: translate(13px,0px)
+}
+.menu {
+    color: #FFFAFA;
+    height: 50px;
+    width: 50px;
+    font-size: 65px;
+    transform: translate(0, 5px );
+}
+.search_1 {
+    z-index: 10;
+    width: 950px;
+    height: 56px;
+    border-radius: 50px;
+    border: 1px solid #000000;
+    background: #8E54E9;
+    opacity: 0.8;
+    color: black;
+    padding-left: 60px;
+    padding-right: 15px;
+    font-size: 20px;
+}
+.search_2 {
+    z-index: 20;
+    font-size: 35px;
+    position: absolute;
+    padding-left: 12px;
+    padding-top: 10px;
+}
+.logo {
+    width: 150px;
+    margin-left: 50px;
+}
+.logo a{
+    font-size: 50px;
+    color: #ffffff;
+    position: absolute;
+    top: 70px;
+    left: 250px;
+    margin-left: 20px;
+}
+.small {
+    font-size: 20px;
+    opacity: 0.9;
+}
+#paint {
+    width: 15px;
+}
+.sale {
+    font-family: 'Roboto', sans-serif;
+    padding: 5px 15px;
+    border-radius: 15px;
+    background: linear-gradient(90deg, #4776E6 0%, #8E54E9 100%);
+}
+.work {
+    font-family: 'Roboto', sans-serif;
+    padding: 5px 15px;
+    border-radius: 15px;
+    background: linear-gradient(90deg, #FF8008 0%, #FFC837 100%);
+    margin-right: 900px;
+}
+.search {
+    margin-top: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+.search_1:hover {
+    background: linear-gradient(90deg, #D3CCE3 0%, #E9E4F0 179.25%);
+}
+.sale a {
+    color: #e9e9e9;
+}
+.work a {
+    color: #e9e9e9;
+}

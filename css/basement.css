@@ -1,0 +1,6 @@
+.basement {
+    /* margin-top: ; */
+    z-index: 2;
+    height: 622px;
+    background: linear-gradient(90deg, #ff85e4 0%, #229efd 179.25%);
+}

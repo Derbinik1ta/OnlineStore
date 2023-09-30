@@ -1,0 +1,112 @@
+
+.center {
+    z-index: 10;
+    height: 2500px;
+    margin-top: 32px;
+    border-radius: 25px;
+    background-color: #ffffff;
+}
+
+
+#sale {
+    width: 1493px;
+    margin: 45px;
+    border-radius: 25px;
+    box-shadow:0 0 20px #555;
+}
+
+#circle_1 {
+    width: 75px;
+    position: absolute;
+    top: 415px;
+    left: 181px;
+    opacity: 0.9;
+}
+
+#circle_2 {
+    width: 75px;
+    position: absolute;
+    top: 415px;
+    left: 1600px;
+    opacity: 0.9;
+}
+
+#arrow_1 {
+    z-index: 10;
+    font-size: 35px;
+    position: absolute;
+    top: 435px;
+    left: 200px;
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+#arrow_2 {
+    z-index: 10;
+    position: absolute;
+    font-size: 35px;
+    top: 435px;
+    left: 1620px;
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+.arrowes:hover {
+    color:  #B00000;
+    opacity: 1;
+}
+
+.points {
+    color: #cb11ab;
+    opacity: 0.5;
+    cursor: pointer;
+}
+#point_3 {
+    font-size: 150px;
+    opacity: 1;
+    position: absolute;
+    top: 605px;
+    left: 915px;
+    text-align: center;
+}
+#point_2 {
+    font-size: 100px;
+    position: absolute;
+    top: 650px;
+    left: 890px;
+}
+#point_4 {
+    font-size: 100px;
+    position: absolute;
+    top: 650px;
+    left: 952.5px;
+}
+#point_1 {
+    font-size: 70px;
+    position: absolute;
+    top: 676.5px;
+    left: 865px;
+}
+#point_5 {
+    font-size: 70px;
+    position: absolute;
+    top: 676.5px;
+    left: 985px;
+}
+
+.pictures {
+    width: 300px;
+    height: 250px;
+    border-radius: 15px;
+   
+}
+.collection {
+    margin-left: 73px;
+    margin-top: 50px;
+    border-radius: 15px;
+    width: 300px;
+    height: 250px;
+    box-sizing: border-box;
+    display: inline-block;
+    cursor: pointer;
+}
